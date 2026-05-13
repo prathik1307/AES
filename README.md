@@ -9,7 +9,7 @@ void xorCrypt(char *in, char *key) {
 for (int i = 0; in[i]; i++) in[i] ^= key[i % strlen(key)];
 }
 int main() {
-char msg[] = "CRYPTOGRAPHY", key[] = "secretkey";
+char msg[] = "PRATHIKSHA", key[] = "secretkey";
 printf("Original: %s\n", msg);
 xorCrypt(msg, key);
 printf("Encrypted: %s\n", msg);
@@ -19,8 +19,8 @@ return 0;
 }
 ```
 # OUTPUT:
+<img width="1166" height="360" alt="image" src="https://github.com/user-attachments/assets/31c51506-0cb7-4961-b4cb-4f14663aeb66" />
 
-<img width="1551" height="683" alt="image" src="https://github.com/user-attachments/assets/c44806ca-4bb3-4278-b72f-507fa73ccfc0" />
 
 # RESULT:
 
